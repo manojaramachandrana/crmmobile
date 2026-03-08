@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870763615030",
+    "project_id": "salescrm-test-19",
+    "storage_bucket": "salescrm-test-19.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870763615030:android:47434b27d0179c12d65997",
+        "android_client_info": {
+          "package_name": "com.example.crmmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKDTv6JJBFbs1GpabSsinQri4P8jzJDmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
