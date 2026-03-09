@@ -4,7 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 import '../constant.dart';
 
-
 class Loginscreen extends StatefulWidget {
   const Loginscreen({super.key});
 
@@ -16,7 +15,6 @@ class _LoginscreenState extends State<Loginscreen> {
   GlobalKey<FormState> formKey = GlobalKey<FormState> (); 
   late String _email; 
   late String _password;
-
 
   void signIn(BuildContext context) async{
     try{
