@@ -43,7 +43,7 @@ class _CallTrackerPageState extends State<CallTrackerPage> {
   }
 
   Future<void> requestPermissions() async {
-    // Request phone permission
+
     var phoneStatus = await Permission.phone.request();
 
     var contactsStatus = await Permission.contacts.request();

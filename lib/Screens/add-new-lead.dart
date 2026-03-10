@@ -1,4 +1,5 @@
-import 'package:crmmobile/Screens/clicktoaddcall.dart';
+// import 'package:crmmobile/Screens/clicktoaddcall.dart';
+import 'package:crmmobile/Screens/query.dart';
 import 'package:crmmobile/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,7 @@ class _AddnewleadState extends State<Addnewlead> {
               borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
             ),
             builder: (context) {
-              return const CallTrackerPage();
+              return leadsquery();
             },
           );
         },
